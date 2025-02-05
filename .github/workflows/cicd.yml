@@ -33,6 +33,6 @@ jobs:
       - name: Deploy to CloudHub 2.0
         run: |
           mvn deploy --settings .maven/settings.xml -DskipMunitTests -DmuleDeploy \
-          -Dclient.id="${{ secrets.CONNECTED_APP_CLIENT_ID }}" \
-          -Dclient.secret="${{ secrets.CONNECTED_APP_CLIENT_SECRET }}" 
+          -Dclient.id="e6f146c880b948699aa17cd46a00eb0f" \
+          -Dclient.secret="6B824c679f2E4262B58465c4ebf121db" 
 
